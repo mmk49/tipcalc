@@ -8,7 +8,11 @@
     android:orientation="vertical"
     android:gravity="center"
     tools:context=".MainActivity">
-
+    <TextView
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:text="Amount:"
+        />
     <EditText
         android:id="@+id/editTextNumberDecimal"
         android:layout_width="128dp"
